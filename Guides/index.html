@@ -1,0 +1,124 @@
+<!doctype html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Document</title>
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Forum&family=Playfair+Display:ital,wght@0,400..900;1,400..900&display=swap"
+      rel="stylesheet"
+    />
+    <style>
+      .main {
+        border: none;
+        width: 1300px;
+        height: 500px;
+        display: flex;
+        justify-content: space-evenly;
+        padding-right: 200px;
+        padding-left: 200px;
+      }
+      .one,
+      .two,
+      .three,
+      .four {
+        border: none;
+        width: 300px;
+        height: 500px;
+        display: flex;
+        justify-content: space-evenly;
+        align-items: center;
+      }
+
+      .line {
+        border: 2px solid white;
+        width: 250px;
+        height: 455px;
+        display: flex;
+        flex-direction: column;
+        justify-content: space-evenly;
+        align-items: center;
+      }
+      .one,
+      .two,
+      .three,
+      .four {
+        background-image:
+          linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)),
+          url("assets/camila-cordeiro-haRyBAihS_0-unsplash.jpg");
+        background-size: cover;
+        background-position: center;
+        background-repeat: no-repeat;
+      }
+      p,
+      a {
+        color: white;
+      }
+      a {
+        margin-top: -150px;
+      }
+      h3 {
+        font-family: "Playfair Display", serif;
+        font-size: 30px;
+        text-align: center;
+      }
+      hr {
+        width: 50px;
+        height: 2px;
+        background-color: #e72e77;
+        margin-top: -20px;
+        margin-bottom: 50px;
+      }
+      p {
+        font-family: "Playfair Display", serif;
+        text-align: center;
+        font-size: 30px;
+        font-weight: 600;
+      }
+    </style>
+  </head>
+  <body>
+    <h3>Browse Our Guides</h3>
+    <hr />
+    <div class="main">
+      <div class="one">
+        <div class="line">
+          <p><i>Decor</i> <br />Guide</p>
+
+          <a href="#">EXPLORE</a>
+        </div>
+      </div>
+      <div class="two">
+        <div class="line">
+          <p>
+            <i>Dress </i><br />
+            Guide
+          </p>
+          <a href="#">EXPLORE</a>
+        </div>
+      </div>
+
+      <div class="three">
+        <div class="line">
+          <p>
+            <i>Real</i> <br />
+            Wedding
+          </p>
+          <a href="#">EXPLORE</a>
+        </div>
+      </div>
+
+      <div class="four">
+        <div class="line">
+          <p>
+            <i>Wedding </i><br />
+            Ideas
+          </p>
+          <a href="#">EXPLORE</a>
+        </div>
+      </div>
+    </div>
+  </body>
+</html>
